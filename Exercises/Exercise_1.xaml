@@ -103,7 +103,7 @@
           <OutArgument x:TypeArguments="x:String">[str_InitialSTR]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">Please use the following address To contact Me,john.doe@localcompany.com On the company email.</InArgument>
+          <InArgument x:TypeArguments="x:String">Please use the following address To contact Me john.doe@localcompany.com On the company email.</InArgument>
         </Assign.Value>
       </Assign>
       <Assign DisplayName="Assign in one line without controls" sap:VirtualizedContainerService.HintSize="513,114" sap2010:WorkflowViewState.IdRef="Assign_2">
@@ -151,7 +151,7 @@
             </scg:List>
           </ui:MultipleAssign.AssignOperations>
         </ui:MultipleAssign>
-        <If Condition="[int_AntesArroba=-1 or int_Arroba=-1 or int_DespuesArroba=-1]" sap:VirtualizedContainerService.HintSize="479,527" sap2010:WorkflowViewState.IdRef="If_1">
+        <If Condition="[int_Arroba=-1]" sap:VirtualizedContainerService.HintSize="479,527" sap2010:WorkflowViewState.IdRef="If_1">
           <If.Then>
             <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,224" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
